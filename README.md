@@ -40,7 +40,7 @@ O sistema oferece diversas funcionalidades, incluindo:
 
 ## 🔹Tela do quadro Kanban
 <p align="center"> 
-  <img src="https://github.com/Cecimedeiros/PRISMA/blob/main/assets/telaKanban.png" width="250"/>
+  <img src="https://github.com/Cecimedeiros/PRISMA/blob/main/assets/kanban.png" width="250"/>
 </p>
 
 ## 🔗 Diagrama de atividades do sistema

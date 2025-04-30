@@ -28,12 +28,17 @@ O sistema oferece diversas funcionalidades, incluindo:
 
 ## 🔹 Tela Inicial 
 <p align="center">
-  <img src="https://github.com/Cecimedeiros/PRISMA/blob/main/assets/telaInicial.png" width="250"/>
+  <img src= "https://github.com/Cecimedeiros/PRISMA/blob/main/assets/telainicial.png" width="250"/>
 </p>
 
 ## 🔹 Tela da principal funcionalidade
 <p align="center"> 
   <img src="https://github.com/Cecimedeiros/PRISMA/blob/main/assets/telainicial.png" width="250"/>
+</p>
+
+## 🔹Tela do quadro Kanban
+<p align="center"> 
+  <img src="https://github.com/Cecimedeiros/PRISMA/blob/main/assets/telaKanban.png" width="250"/>
 </p>
 
 ## 🚀 Status do Projeto 

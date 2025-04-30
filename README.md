@@ -35,7 +35,7 @@ O sistema oferece diversas funcionalidades, incluindo:
 
 ## 🔹 Tela da principal funcionalidade
 <p align="center"> 
-  <img src="https://github.com/Cecimedeiros/PRISMA/blob/main/assets/telainicial.png" width="250"/>
+  <img src="https://github.com/Cecimedeiros/PRISMA/blob/main/assets/telachat.png" width="250"/>
 </p>
 
 ## 🔹Tela do quadro Kanban

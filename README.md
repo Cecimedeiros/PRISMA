@@ -24,8 +24,9 @@ O sistema oferece diversas funcionalidades, incluindo:
 - Registro de Feedbacks sobre o sistema e acesso ao serviços policiais;
 
 ## Demonstração do projeto
-[📹 Assista à demonstração do projeto no Google Drive](https://drive.google.com/file/d/14x26vmcRaU1XsxRZThTFJIgF097MaSKV/view?usp=drive_link)
-[📹 Assista à demonstração do projeto implementado em telas]()
+[📹 Clique e assista à demonstração do projeto no Google Drive](https://drive.google.com/file/d/14x26vmcRaU1XsxRZThTFJIgF097MaSKV/view?usp=drive_link)
+
+[📹 Assista à demonstração do projeto implementado em telas](https://drive.google.com/file/d/1RCQv69wypiphXGLzGkayqJ731WcN1REK/view?usp=sharing)
 
 ## 🔹 Tela Inicial 
 <p align="center">
@@ -44,6 +45,9 @@ O sistema oferece diversas funcionalidades, incluindo:
 
 ## 🔗 Diagrama de atividades do sistema
 [Diagrama de atividades](https://lucid.app/lucidchart/5621d7b0-7fd9-4a5e-9b76-6b826c85bdfa/edit?viewport_loc=-4166%2C-715%2C6607%2C2616%2C0_0&invitationId=inv_ed184107-3c1c-4677-a7ba-0b8be9887775)
+
+## ⚙️ Issues e bugs tracker
+[Issues/bug tracker](https://github.com/Cecimedeiros/PRISMA/blob/main/assets/issues.png)
 
 ## 🚀 Status do Projeto 
 

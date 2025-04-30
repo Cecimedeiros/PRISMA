@@ -63,7 +63,7 @@ footer {
 }
 
 .chat-message {
-  background: #f0f0f0;
+  background: #d8d8d8;
   padding: 15px;
   border-radius: 10px;
   max-width: 100%;
@@ -72,6 +72,7 @@ footer {
 .chat-message p {
   margin: 0;
   font-size: 14px;
+  color: #333;
 }
 
 .gov-button {
@@ -115,7 +116,7 @@ footer {
 }
 
 .send-button:hover {
-  color: #000;
+  color: #ffffff;
 }
 
 footer {

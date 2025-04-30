@@ -1,6 +1,6 @@
 # 🔎 P.R.I.S.M.A 
-<p align="center">
-  <img src="https://github.com/Cecimedeiros/PRISMA/blob/main/assets/prima.png.png?raw=true" width="250"/>
+<p align="center"> 
+  <img src="https://github.com/Cecimedeiros/PRISMA/blob/main/assets/prima.png" width="250"/>
 </p>
 O projeto P.R.I.S.M.A (Plataforma Responsiva de Inteligência para Segurança, Monitoramento e Atendimento) está sendo desenvolvido com o intuito de auxiliar os cidadãos do estado de Pernambuco a terem acesso a informações verídicas e atualizadas, como localização e número de telefone das unidades policiais, sobre os serviços oferecidos pela Polícia Civil por intermédio de um chatbot, o qual será capaz de sanar dúvidas dos usuários, de maneira humanizada. 
 
@@ -32,8 +32,8 @@ O sistema oferece diversas funcionalidades, incluindo:
 </p>
 
 ## 🔹 Tela da principal funcionalidade
-<p align="center">
-  <img src="https://github.com/Cecimedeiros/PRISMA/blob/main/assets/telachat.png.png" width="250"/>
+<p align="center"> 
+  <img src="https://github.com/Cecimedeiros/PRISMA/blob/main/assets/telainicial.png" width="250"/>
 </p>
 
 ## 🚀 Status do Projeto 

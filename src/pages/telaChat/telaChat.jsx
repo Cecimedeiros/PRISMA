@@ -10,7 +10,7 @@ export default function TelaChat() {
       <div className="chat-container">
         <div className="chat-box">
           <div className="chat-header">
-            <img src="/assets/prisma.png" alt="Assistente Prisma" className="chat-avatar" />
+            <img src="../../assets/prima.png" alt="Assistente Prisma" className="chat-avatar" />
             <div className="chat-message">
               <p>
                 Olá! <span role="img" aria-label="estrela">✨</span> Sou a <strong>Prisma</strong>, sua assistente da Polícia Civil de Pernambuco.

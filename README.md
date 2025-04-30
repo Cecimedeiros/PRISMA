@@ -28,7 +28,7 @@ O sistema oferece diversas funcionalidades, incluindo:
 
 [📹 Assista à demonstração do projeto implementado em telas](https://drive.google.com/file/d/1RCQv69wypiphXGLzGkayqJ731WcN1REK/view?usp=sharing)
 
-[DEPLOY](https://prisma-blond.vercel.app/)
+[👩‍💻 DEPLOY](https://prisma-blond.vercel.app/)
 
 ## 🔹 Tela Inicial 
 <p align="center">

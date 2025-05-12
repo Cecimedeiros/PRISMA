@@ -49,9 +49,9 @@ export function HomePages() {
 
           <NewsGrid />
           
-          <div className="banner-container">
+          {/* <div className="banner-container">
             <img src="/assets/bannerHome.png" alt="Banner Home" className="banner-home" />
-          </div>
+          </div> */}
           <Footer />
         </div>
       )}

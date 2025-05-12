@@ -8,8 +8,8 @@ const team = [
   { name: 'Beatriz Paredes', photo: '/bia.jpg' },
   { name: 'Catarina Loureiro', photo: '/cata.jpg' },
   { name: 'Cecília Medeiros', photo: '/ceci.jpg' },
-  { name: 'Isabella Batista', photo: 'https://via.placeholder.com/150' },
-  { name: 'Melissa Filgueiras', photo: 'https://via.placeholder.com/150' }
+  { name: 'Isabella Batista', photo: '/bella.jpg' },
+  { name: 'Melissa Filgueiras', photo: '/mel.jpg' }
 ];
 
 function Contact() {

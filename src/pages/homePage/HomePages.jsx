@@ -1,22 +1,30 @@
 import { useState } from "react";
-import Footer from "../../components/Footer/Footer";  // Corrigido para o caminho correto
-import Header from "../../components/Header/Header";  // Corrigido para o caminho correto
-import { NewsGrid } from "../../components/NewSection/NewsGrid";  // Corrigido para o caminho correto
-import { BreakingNews } from "../../components/NewSection/BreakingNews";  // Corrigido para o caminho correto
-import TelaChat from "../telaChat/telaChat.jsx";  // Ajuste o caminho correto
-import TelaMapa from "../telaMapa/telaMapa.jsx";  // Sem a vírgula extra
+import Footer from "../../components/Footer/Footer";  
+import Header from "../../components/Header/Header";  
+import { NewsGrid } from "../../components/NewSection/NewsGrid";  
+import { BreakingNews } from "../../components/NewSection/BreakingNews";  
+import TelaChat from "../telaChat/telaChat.jsx";  
+import TelaMapa from "../telaMapa/telaMapa.jsx";  
+import About from "../About/About.tsx";  
+import Contact from "../contatos/Contact.tsx";
 
 export function HomePages() {
   const [showChat, setShowChat] = useState(false);
   const [showMapa, setShowMapa] = useState(false);
+  const [showAbout, setShowAbout] = useState(false);
+  const [showContact, setShowContact] = useState(false);
 
   return (
     <>
-      {showChat ? (  // Exibe o TelaChat se showChat for true
+      {showChat ? (  
         <TelaChat />
-      ) : showMapa ? (  // Exibe o TelaMapa se showMapa for true
+      ) : showMapa ? (  
         <TelaMapa />
-      ) : (  // Exibe a HomePage se nenhum dos dois for true
+      ) : showAbout ?(
+        <About/>
+      ) : showContact ? (
+        <Contact/>
+      ) : (  
         <div>
           <Header />
           <BreakingNews />
@@ -28,6 +36,14 @@ export function HomePages() {
 
           <button onClick={() => setShowMapa(true)}>
             Ir para o Mapa
+          </button>
+
+          <button onClick={() => setShowAbout(true)}>
+            Sobre o Projeto
+          </button>
+
+          <button onClick={() => setShowContact(true)}>
+            Contato
           </button>
 
           <NewsGrid />

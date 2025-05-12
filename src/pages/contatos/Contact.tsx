@@ -3,10 +3,11 @@ import './Contact.css';
 import Footer from '../../components/Footer/Footer';    
 import Header from '../../components/Header/Header';
 
+
 const team = [
-  { name: 'Beatriz Paredes', photo: 'https://via.placeholder.com/150' },
-  { name: 'Catarina Loureiro', photo: 'https://via.placeholder.com/150' },
-  { name: 'Cecília Medeiros', photo: 'https://via.placeholder.com/150' },
+  { name: 'Beatriz Paredes', photo: '/bia.jpg' },
+  { name: 'Catarina Loureiro', photo: '/cata.jpg' },
+  { name: 'Cecília Medeiros', photo: '/ceci.jpg' },
   { name: 'Isabella Batista', photo: 'https://via.placeholder.com/150' },
   { name: 'Melissa Filgueiras', photo: 'https://via.placeholder.com/150' }
 ];

@@ -1,5 +1,12 @@
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
 body {
-  background-color: #f5f5f5; /* mesmo fundo da página de contato */
+  background-color: #f5f5f5; 
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

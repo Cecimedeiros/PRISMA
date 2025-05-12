@@ -30,16 +30,17 @@ export function HomePages() {
           <BreakingNews />
 
           {/* Botões para alternar entre as páginas */}
+          
+          <button onClick={() => setShowAbout(true)}>
+            Sobre o Projeto
+          </button>
+
           <button onClick={() => setShowChat(true)}>
             Ir para o Chat
           </button>
 
           <button onClick={() => setShowMapa(true)}>
             Ir para o Mapa
-          </button>
-
-          <button onClick={() => setShowAbout(true)}>
-            Sobre o Projeto
           </button>
 
           <button onClick={() => setShowContact(true)}>

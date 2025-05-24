@@ -1,0 +1,104 @@
+.container-agendamento {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: var(--background);
+  border: 2px solid #ccc;
+  border-radius: 16px;
+}
+
+.container-agendamento h2 {
+  color: #00303d;
+  font-weight: 800;
+}
+
+.box {
+  display: flex;
+  gap: 30px;
+}
+
+.box-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-left img {
+  width: 120px;
+}
+
+.fala {
+  background-color: #f0f0f0;
+  border-radius: 16px;
+  padding: 10px;
+  margin-top: 10px;
+  max-width: 300px;
+}
+
+.fala p {
+  margin: 0;
+}
+
+.box-right {
+  flex: 1;
+}
+
+.box-right label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.box-right input,
+.box-right select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.botoes {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.botoes button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #00303d;
+  color: white;
+}
+
+.botoes .consulta {
+  background-color: white;
+  color: #00303d;
+  border: 1px solid #00303d;
+}
+
+:root {
+  --background: white;
+}
+
+/* Dark Theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1f1f1f;
+  }
+  .container-agendamento {
+    border-color: #555;
+  }
+  .box-right label {
+    color: #eee;
+  }
+  .container-agendamento h2 {
+    color: #4cc9f0;
+  }
+  .fala {
+    background-color: #333;
+    color: white;
+  }
+}

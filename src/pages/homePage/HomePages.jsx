@@ -49,6 +49,8 @@ export function HomePages() {
             Contato
           </button>
 
+          <h2 className="h2">ÚLTIMAS NOTÍCIAS</h2>
+
           <NewsGrid />
           
           <div className="banner-container">

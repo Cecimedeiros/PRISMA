@@ -7,3 +7,9 @@ body {
   max-width: 100%;
   display: block;
 }
+.h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+

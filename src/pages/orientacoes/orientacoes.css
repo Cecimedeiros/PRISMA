@@ -1,0 +1,123 @@
+.container-orientacoes {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.card-orientacoes {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.mensagem-topo {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.mensagem-topo img {
+  width: 60px;
+  height: 60px;
+}
+
+.texto-box {
+  background-color: #f5f5f5;
+
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1;
+}
+
+.texto-box h3 {
+  margin-top: 0;
+  font-size: 16px;
+
+}
+
+.texto-box ol {
+  margin: 10px 0 0 20px;
+  padding: 0;
+
+}
+
+.texto-box li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.campo-enviar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.campo-enviar img {
+  width: 60px;
+  height: 60px;
+}
+
+.mensagem-usuario {
+  background-color: #e8e8e8;
+  border-radius: 20px;
+  padding: 12px 20px;
+}
+
+.input-enviar {
+  display: flex;
+  align-items: center;
+  border: 2px solid #eee;
+  border-radius: 30px;
+  padding: 8px 16px;
+  background-color: white;
+}
+
+.input-enviar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.input-enviar button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  color: #474747;
+  transition: color 0.3s;
+}
+
+.input-enviar button:hover {
+  color: #5f5f5f;
+}
+
+@media (max-width: 768px) {
+  .card-orientacoes {
+    padding: 20px;
+  }
+
+  .mensagem-topo img,
+  .campo-enviar img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .mensagem-usuario {
+    font-size: 14px;
+  }
+
+  .input-enviar input {
+    font-size: 14px;
+  }
+}

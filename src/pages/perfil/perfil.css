@@ -1,0 +1,103 @@
+.pagina-perfil {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container-perfil {
+  display: flex;
+  flex: 1;
+  padding: 40px 80px;
+  gap: 40px;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foto-usuario {
+  width: 100px;
+  height: 100px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.btn-sidebar {
+  width: 100%;
+  padding: 10px;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-sidebar.selecionado {
+  background-color: #183a57;
+  color: white;
+}
+
+.btn-sair {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #183a57;
+  border-radius: 20px;
+  margin-top: auto;
+  cursor: pointer;
+  color: #183a57;
+  font-weight: 600;
+}
+
+.conteudo-perfil {
+  flex: 1;
+}
+
+.conteudo-perfil h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.box-info {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.secao {
+  margin-bottom: 30px;
+}
+
+.secao h3 {
+  font-size: 18px;
+  color: #183a57;
+  margin-bottom: 10px;
+}
+
+.linha {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.linha label {
+  font-weight: 600;
+  color: #333;
+}
+
+.linha span {
+  color: #555;
+  justify-content: left;
+  text-align: left;
+}
+
+

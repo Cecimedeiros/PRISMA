@@ -7,6 +7,8 @@ import TelaChat from "../telaChat/telaChat.jsx";
 import TelaMapa from "../telaMapa/telaMapa.jsx";  
 import About from "../About/About.tsx";  
 import Contact from "../contatos/Contact.tsx";
+import './HomePages.css';
+
 
 export function HomePages() {
   const [showChat, setShowChat] = useState(false);
@@ -49,10 +51,15 @@ export function HomePages() {
 
           <NewsGrid />
           
-          {/* <div className="banner-container">
-            <img src="/assets/bannerHome.png" alt="Banner Home" className="banner-home" />
-          </div> */}
-          <Footer />
+          <div className="banner-container">
+            <img 
+              src="/assets/bannerHome.png" 
+              alt="Banner Home" 
+              className="banner-home" 
+            />
+          </div>
+        <Footer />
+        
         </div>
       )}
     </>

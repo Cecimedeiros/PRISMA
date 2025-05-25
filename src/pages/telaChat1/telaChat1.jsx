@@ -7,7 +7,7 @@ import prismaLogo from '../../../assets/prima.png';
 function ChatPage() {
   return (
     <main className="chat-main">
-      <Header />  {/* Aqui está o Header */}
+      <Header />  
 
       <section className="chatbox">
         <div className="chat-bubble">
@@ -32,7 +32,7 @@ function ChatPage() {
         </div>
       </section>
 
-      <Footer />  {/* Aqui está o Footer */}
+      <Footer />  
     </main>
   );
 }

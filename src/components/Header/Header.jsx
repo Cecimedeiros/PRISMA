@@ -9,8 +9,8 @@ function Header() {
           <div className="logo-container">
             <img src=".\assets\logo.png" alt="Polícia Civil de Pernambuco" className="logo" />
             <div className="logo-text">
-              <h3>POLÍCIA CIVIL DE</h3>
-              <h2>PERNAMBUCO</h2>
+              <h3 className= "h3">POLÍCIA CIVIL DE</h3>
+              <h2 className="h2">PERNAMBUCO</h2>
             </div>
           </div>
           

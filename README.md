@@ -28,7 +28,7 @@ O sistema oferece diversas funcionalidades, incluindo:
 
 [📹 Assista à demonstração do projeto implementado em telas](https://drive.google.com/file/d/1RCQv69wypiphXGLzGkayqJ731WcN1REK/view?usp=sharing)
 
-[👩‍💻 DEPLOY](prisma-vert.vercel.app)
+[👩‍💻 DEPLOY](https://prisma-vert.vercel.app/)
 
 ## 🔹 Tela Inicial 
 <p align="center">

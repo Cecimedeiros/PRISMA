@@ -26,12 +26,12 @@ function ChatPage() {
             <div className="chat-message">
               <p><strong>🔎 O que você deseja hoje?</strong></p>
               <ul>
-                <li>📄 Registrar Boletim de Ocorrência (BO) Online</li>
-                <li>📂 Consultar BO ou andamento de investigação</li>
-                <li>📍 Localizar Delegacia mais próxima</li>
-                <li>📞 Falar com um atendente</li>
-                <li>❓ Dúvidas frequentes</li>
-                <li>📋 Ver meus atendimentos anteriores</li>
+                <li>1. Registrar Boletim de Ocorrência (BO) Online</li>
+                <li>2. Consultar BO ou andamento de investigação</li>
+                <li>3. Localizar Delegacia mais próxima</li>
+                <li>4. Falar com um atendente</li>
+                <li>5. Dúvidas frequentes</li>
+                <li>6. Ver meus atendimentos anteriores</li>
               </ul>
             </div>
           </div>
@@ -41,7 +41,7 @@ function ChatPage() {
                 <img src={usuarioLogo} alt="Usuário" />
             </div>
             <div className="bubble-response">
-                📄 Registrar Boletim de Ocorrência (BO) Online
+                1. Registrar Boletim de Ocorrência (BO) Online
             </div>
         </div>
 

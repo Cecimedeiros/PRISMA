@@ -1,23 +1,32 @@
 import React from "react";
 import Footer from "../../components/Footer/Footer.jsx";
 import Header from "../../components/Header/Header.jsx";
+import usuarioLogo from '../../../assets/icons_usuario.png';
+import { useNavigate } from 'react-router-dom';
 import "./unidade.css";
 
 const Unidade = () => {
+  // Defina o hook useNavigate
+  const navigate = useNavigate();
+
   return (
     <div className="pagina-unidade">
       <Header />
 
       <div className="container-unidade">
         <aside className="sidebar">
-          <div className="foto-usuario"></div>
+          <div className="foto-usuario">
+            <img src={usuarioLogo} alt="Usuário" className="imagem-usuario" />
+          </div>
           <button className="btn-sidebar">Meu Perfil</button>
           <button className="btn-sidebar">Registro de agendamentos</button>
           <button className="btn-sidebar">Exibição de B.O e denúncias</button>
           <button className="btn-sidebar">Localização e número das unidades</button>
           <button className="btn-sidebar selecionado">Atualizar informações da unidade</button>
           <button className="btn-sidebar">Lembretes mensais</button>
-          <button className="btn-sair">Sair</button>
+          <button className="btn-sair" onClick={() => navigate("/")}>
+           Sair
+          </button>
         </aside>
 
         <main className="conteudo-unidade">
@@ -77,3 +86,4 @@ const Unidade = () => {
 };
 
 export default Unidade;
+

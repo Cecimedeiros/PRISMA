@@ -10,6 +10,9 @@ import Agenda from './pages/Agenda/Agenda'
 import About from './pages/About/About'
 import Contact  from './pages/contatos/Contact'
 import Feedback from './pages/feedback/feedback'
+import Perfil from './pages/perfil/perfil'
+import Login from './pages/login/login'
+import Unidade from './pages/unidade/unidade';
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact  />} />
         <Route path="/feedback" element={<Feedback  />} />
+        <Route path="/perfil" element={<Perfil />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/unidade" element={<Unidade />} />
 
       </Routes>
     </BrowserRouter>

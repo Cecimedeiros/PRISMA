@@ -1,4 +1,4 @@
-.container-orientacoes {
+.container-confirmacao {
   min-height: 80vh;
   display: flex;
   align-items: center;
@@ -7,7 +7,7 @@
   background-color: #f9f9f9;
 }
 
-.card-orientacoes {
+.card-confirmacao {
   background-color: white;
   border-radius: 12px;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
@@ -30,46 +30,21 @@
   height: 60px;
 }
 
-.texto-box {
-  background-color: #f5f5f5;
-
-  border-radius: 10px;
-  padding: 20px;
-  flex: 1;
+.texto-confirmacao {
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  padding: 18px 22px;
+  color: #333;
 }
 
-.texto-box h3 {
-  margin-top: 0;
-  font-size: 16px;
-
+.texto-confirmacao p {
+  margin: 8px 0;
+  line-height: 1.6;
 }
 
-.texto-box ol {
-  margin: 10px 0 0 20px;
-  padding: 0;
-
-}
-
-.texto-box li {
-  margin-bottom: 8px;
-  line-height: 1.5;
-}
-
-.campo-enviar {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.campo-enviar img {
-  width: 60px;
-  height: 60px;
-}
-
-.mensagem-usuario {
-  background-color: #e8e8e8;
-  border-radius: 20px;
-  padding: 12px 20px;
+.sucesso {
+  color: #008000;
+  font-weight: bold;
 }
 
 .input-enviar {
@@ -94,26 +69,25 @@
   border: none;
   cursor: pointer;
   font-size: 22px;
-  color: #474747;
+  color: #565656;
   transition: color 0.3s;
 }
 
 .input-enviar button:hover {
-  color: #5f5f5f;
+  color: #585858;
 }
 
 @media (max-width: 768px) {
-  .card-orientacoes {
+  .card-confirmacao {
     padding: 20px;
   }
 
-  .mensagem-topo img,
-  .campo-enviar img {
+  .mensagem-topo img {
     width: 50px;
     height: 50px;
   }
 
-  .mensagem-usuario {
+  .texto-confirmacao {
     font-size: 14px;
   }
 
@@ -121,10 +95,23 @@
     font-size: 14px;
   }
 }
-.chat-response.user .bubble-response {
-  background-color: #cbe4f9;
-  padding: 12px 20px;
-  border-radius: 15px;
-  max-width: 500px;
-  font-size: 14px;
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.btn-baixar {
+  background-color: rgb(185, 12, 12);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-baixar:hover {
+  background-color: darkred;
 }

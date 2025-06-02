@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Footer from "../../components/Footer/Footer.jsx";
 import Header from "../../components/Header/Header.jsx";
-import "./login.css"; // importa o CSS específico da página
+import "./login.css"; 
 
 const Login = () => {
   const [matricula, setMatricula] = useState("");
@@ -10,7 +10,7 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     alert(`Matrícula: ${matricula}\nSenha: ${senha}`);
-    // Aqui você pode implementar a lógica real de autenticação futuramente
+    
   };
 
   return (

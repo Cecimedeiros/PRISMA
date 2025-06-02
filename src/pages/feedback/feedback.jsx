@@ -2,8 +2,15 @@ import React, { useState } from 'react';
 import Footer from "../../components/Footer/Footer.jsx";
 import Header from "../../components/Header/Header.jsx";
 import './feedback.css';
+import { useNavigate } from 'react-router-dom';
 
 const Feedback = () => {
+
+  const navigate = useNavigate(); 
+
+  const handleSend = () => {
+    navigate('/');
+  };
   const [rating, setRating] = useState(0);
 
   const handleRating = (value) => {
@@ -38,9 +45,7 @@ const Feedback = () => {
 
           <div className="campo-enviar">
             <input type="text" placeholder="Escreva seu comentário aqui..." />
-            <button>
-              <i className="fa fa-paper-plane" />
-            </button>
+            <button className="send-button" onClick={handleSend}>&#9658;</button>
           </div>
         </div>
       </div>

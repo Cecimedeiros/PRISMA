@@ -27,7 +27,7 @@
   object-fit: cover;
 }
 
-/* Chat do usuário (espelhado à direita) */
+
 .chat-response.user {
   display: flex;
   justify-content: flex-end;

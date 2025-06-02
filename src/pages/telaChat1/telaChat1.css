@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,15 +12,14 @@ body, html {
   background-color: #fff;
 }
 
-/* ================= Main ================= */
+
 .chat-main {
-  min-height: calc(100vh - 160px); /* Desconta header + footer */
+  min-height: calc(100vh - 160px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* ================= Chatbox ================= */
 .chatbox {
   flex: 1;
   display: flex;
@@ -66,7 +65,7 @@ body, html {
   margin-bottom: 8px;
 }
 
-/* ================= Input do Chat ================= */
+
 .chat-input-area {
   margin-top: 20px;
   display: flex;
@@ -97,7 +96,7 @@ body, html {
 
 
 
-/* ================= Responsividade ================= */
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;

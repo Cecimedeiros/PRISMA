@@ -2,10 +2,11 @@ import React, { useRef } from 'react';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import './orientacoes.css';
-
 import Footer from "../../components/Footer/Footer.jsx";
 import Header from "../../components/Header/Header.jsx";
 import avatar from '/assets/prima.png'; 
+import usuarioLogo from '../../../assets/icons_usuario.png';
+import { useNavigate } from 'react-router-dom';
 
 function Orientacoes() {
   const pdfRef = useRef();
@@ -20,6 +21,12 @@ function Orientacoes() {
       pdf.addImage(imgData, 'PNG', 5, 5, pdfWidth - 10, pdfHeight);
       pdf.save('boletim-de-ocorrencia.pdf');
     });
+  };
+
+  const navigate = useNavigate(); 
+
+  const handleSend = () => {
+    navigate('/confirmacao');
   };
 
   return (
@@ -50,9 +57,19 @@ function Orientacoes() {
             </div>
           </div>
 
+          <div className="chat-response user">
+              <div className="user-avatar">
+                  <img src={usuarioLogo} alt="Usuário" />
+              </div>
+              <div className="bubble-response">
+                  Gostaria de registrar um assalto
+              </div>
+
+          </div>
+
           <div className="input-enviar">
             <input type="text" placeholder="Descreva sua ocorrência aqui..." />
-            <button onClick={gerarPDF}></button>
+            <button className="send-button" onClick={handleSend}>&#9658;</button>
           </div>
         </div>
       </div>

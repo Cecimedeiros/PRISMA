@@ -2,9 +2,19 @@ import './telaChat1.css';
 import Footer from "../../components/Footer/Footer.jsx";
 import Header from "../../components/Header/Header.jsx";
 import prismaLogo from '../../../assets/prima.png';
+import { useNavigate } from 'react-router-dom';
+
+
 
 
 function ChatPage() {
+  const navigate = useNavigate();
+
+  const handleSend = () => {
+    navigate('/chat2'); 
+  };
+
+
   return (
     <main className="chat-main">
       <Header />  
@@ -28,7 +38,7 @@ function ChatPage() {
         </div>
         <div className="chat-input-area">
           <input type="text" placeholder="Digite aqui sua mensagem..." />
-          <button>&#9658;</button>
+          <button className="send-button" onClick={handleSend}>&#9658;</button>
         </div>
       </section>
 

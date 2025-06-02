@@ -42,16 +42,12 @@ export default function Agendamento() {
 const gerarPDF = (agendamento: any) => {
   const doc = new jsPDF();
 
-  // 🔥 Título centralizado
+  
   doc.setFontSize(18);
   doc.setTextColor(40, 40, 40);
   doc.text("Comprovante de Agendamento", 105, 20, { align: "center" });
 
-  // 🖼️ (Opcional) Adiciona uma imagem (logotipo)
-  // Descomente a linha abaixo e ajuste o caminho e tamanho
-  // doc.addImage('/assets/logo.png', 'PNG', 10, 5, 30, 15);
-
-  // 🧾 Tabela personalizada
+  
   autoTable(doc, {
     startY: 30,
     head: [["Campo", "Informação"]],
@@ -68,20 +64,20 @@ const gerarPDF = (agendamento: any) => {
       valign: "middle",
     },
     headStyles: {
-      fillColor: [22, 160, 133], // Cabeçalho verde água
-      textColor: 255,            // Texto branco
+      fillColor: [22, 160, 133], 
+      textColor: 255,            
       fontStyle: "bold",
     },
     bodyStyles: {
-      fillColor: [240, 248, 255], // Azul bem clarinho no corpo
+      fillColor: [240, 248, 255], 
     },
     alternateRowStyles: {
-      fillColor: [255, 255, 255], // Branco nas linhas alternadas
+      fillColor: [255, 255, 255], 
     },
     margin: { top: 30 },
   });
 
-  // ➕ Rodapé com texto fixo
+  
   const pageHeight = doc.internal.pageSize.height;
   doc.setFontSize(10);
   doc.text(
@@ -91,7 +87,7 @@ const gerarPDF = (agendamento: any) => {
     { align: "center" }
   );
 
-  // 💾 Salvar o PDF
+ 
   doc.save("comprovante-agendamento.pdf");
 };
 

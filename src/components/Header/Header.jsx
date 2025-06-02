@@ -1,15 +1,23 @@
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaSearch } from 'react-icons/fa';
 import './Header.css';
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
+
+  const navigate = useNavigate(); 
+
+  const handleGoHome = () => {
+    navigate('/'); 
+  };
+
   return (
     <header className="header">
       <div className="container">
         <div className="header-content">
-          <div className="logo-container">
-            <img src=".\assets\logo.png" alt="Polícia Civil de Pernambuco" className="logo" />
+          <div className="logo-container" onClick={handleGoHome} style={{ cursor: 'pointer' }}>
+            <img src="./assets/logo.png" alt="Polícia Civil de Pernambuco" className="logo" />
             <div className="logo-text">
-              <h3 className= "h3">POLÍCIA CIVIL DE</h3>
+              <h3 className="h3">POLÍCIA CIVIL DE</h3>
               <h2 className="h2">PERNAMBUCO</h2>
             </div>
           </div>

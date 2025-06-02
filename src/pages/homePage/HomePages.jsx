@@ -1,69 +1,55 @@
-import { useState } from "react";
-import Footer from "../../components/Footer/Footer";  
-import Header from "../../components/Header/Header";  
-import { NewsGrid } from "../../components/NewSection/NewsGrid";  
-import { BreakingNews } from "../../components/NewSection/BreakingNews";  
-import TelaChat from "../telaChat/telaChat.jsx";  
-import TelaMapa from "../telaMapa/telaMapa.jsx";  
-import About from "../About/About.tsx";  
-import Contact from "../contatos/Contact.tsx";
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import { NewsGrid } from "../../components/NewSection/NewsGrid";
+import { BreakingNews } from "../../components/NewSection/BreakingNews";
 import './HomePages.css';
 
+import LogoAgendamento from '../../../assets/agendamento.png';
+import LogoBoletim from '../../../assets/boletimOcorrencia.png';
+import LogoChat from '../../../assets/chat.png';
+import LogoServico from '../../../assets/servico.png';
+
+import { useNavigate } from 'react-router-dom';
 
 export function HomePages() {
-  const [showChat, setShowChat] = useState(false);
-  const [showMapa, setShowMapa] = useState(false);
-  const [showAbout, setShowAbout] = useState(false);
-  const [showContact, setShowContact] = useState(false);
+  const navigate = useNavigate();
+
+  const handleClick = (next) => {
+    navigate(`/chat?next=${next}`);
+  };
 
   return (
-    <>
-      {showChat ? (  
-        <TelaChat />
-      ) : showMapa ? (  
-        <TelaMapa />
-      ) : showAbout ?(
-        <About/>
-      ) : showContact ? (
-        <Contact/>
-      ) : (  
-        <div>
-          <Header />
-          <BreakingNews />
+    <div>
+      <Header />
 
-          {/* Botões para alternar entre as páginas */}
-          
-          <button onClick={() => setShowAbout(true)}>
-            Sobre o Projeto
-          </button>
+      <BreakingNews />
 
-          <button onClick={() => setShowChat(true)}>
-            Ir para o Chat
-          </button>
-
-          <button onClick={() => setShowMapa(true)}>
-            Ir para o Mapa
-          </button>
-
-          <button onClick={() => setShowContact(true)}>
-            Contato
-          </button>
-
-          <h2 className="h2">ÚLTIMAS NOTÍCIAS</h2>
-
-          <NewsGrid />
-          
-          <div className="banner-container">
-            <img 
-              src="/assets/bannerHome.png" 
-              alt="Banner Home" 
-              className="banner-home" 
-            />
-          </div>
-        <Footer />
-        
+      <section className="buttons-section">
+        <div className="button-item" onClick={() => handleClick('chat1')}>
+          <img src={LogoChat} alt="Chat" />
+          <p>Chat</p>
         </div>
-      )}
-    </>
+
+        <div className="button-item" onClick={() => handleClick('mapa')}>
+          <img src={LogoServico} alt="Serviço" />
+          <p>Serviço</p>
+        </div>
+
+        <div className="button-item" onClick={() => handleClick('orientacoes')}>
+          <img src={LogoBoletim} alt="Boletim de Ocorrência" />
+          <p>Boletim de Ocorrência</p>
+        </div>
+
+        <div className="button-item" onClick={() => handleClick('agenda')}>
+          <img src={LogoAgendamento} alt="Agendamento" />
+          <p>Agendamento</p>
+        </div>
+      </section>
+
+      <h2 className="title-news">ÚLTIMAS NOTÍCIAS</h2>
+      <NewsGrid />
+
+      <Footer />
+    </div>
   );
 }

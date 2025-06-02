@@ -80,11 +80,16 @@
   transition: background-color 0.3s;
 }
 
-.campo-enviar button:hover {
-  background-color: #eee;
+.campo-enviar button {
+  
+  color: rgb(53, 47, 47); 
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
 }
 
-.campo-enviar i {
-  font-size: 18px;
-  color: #333;
+.campo-enviar button:hover {
+  background-color: #8a8888; 
 }

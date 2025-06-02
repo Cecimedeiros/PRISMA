@@ -6,7 +6,7 @@ import Header from "../../components/Header/Header.jsx";
 const About: React.FC = () => {
   return (
     <>
-      {/* Header fica fora do container, no topo da página */}
+      
       <Header />
 
       <section className="prisma-section">

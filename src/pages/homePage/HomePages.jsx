@@ -49,6 +49,10 @@ export function HomePages() {
       <h2 className="title-news">ÚLTIMAS NOTÍCIAS</h2>
       <NewsGrid />
 
+      <div className="imgbanner">
+        <img src="/assets/bannerHome.png" alt="Banner" />
+      </div>
+
       <Footer />
     </div>
   );

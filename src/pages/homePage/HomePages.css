@@ -40,3 +40,17 @@
   font-size: 12px;
   word-break: break-word; 
 }
+.title-news {
+  text-align: center;
+}
+
+.imgbanner {
+  width: 100vw;  
+  overflow: hidden;
+}
+
+.imgbanner img {
+  width: 100%;   
+  height: auto;  
+  display: block; 
+}

@@ -35,7 +35,7 @@ export function HomePages() {
           <p>Serviço</p>
         </div>
 
-        <div className="button-item" onClick={() => handleClick('orientacoes')}>
+        <div className="button-item" onClick={() => handleClick('chat2')}>
           <img src={LogoBoletim} alt="Boletim de Ocorrência" />
           <p>Boletim de Ocorrência</p>
         </div>

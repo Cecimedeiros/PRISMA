@@ -32,7 +32,7 @@ O sistema oferece diversas funcionalidades, incluindo:
 
 ## 🔹 Tela Inicial 
 <p align="center">
-  <img src= "https://github.com/Cecimedeiros/PRISMA/blob/main/assets/telainicial.png" width="250"/>
+  <img src= "https://github.com/Cecimedeiros/PRISMA/blob/main/assets/telaInicial.png" width="250"/>
 </p>
 
 ## 🔹 Tela da principal funcionalidade
@@ -78,5 +78,5 @@ O sistema oferece diversas funcionalidades, incluindo:
  - [Beatriz Paredes](https://www.linkedin.com/in/beatriz-paredes-do-nascimento-91664a182/)
  - [Catarina Loureiro](https://www.linkedin.com/in/catarina-virginia-lima-loureiro-xavier-439731338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
  - [Cecília Medeiros](linkedin.com/in/medeiroscecilia22)
- - [Isabela Batista](https://br.linkedin.com/in/isabella-batista-a096452b2)
+ - [Isabella Batista](https://br.linkedin.com/in/isabella-batista-a096452b2)
  - [Melissa Filgueiras](https://www.linkedin.com/in/melissafilgueiras/)

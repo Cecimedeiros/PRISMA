@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // ← IMPORTADO AQUI
+import { useNavigate } from "react-router-dom"; 
 import Footer from "../../components/Footer/Footer.jsx";
 import Header from "../../components/Header/Header.jsx";
 import "./login.css"; 
@@ -7,14 +7,14 @@ import "./login.css";
 const Login = () => {
   const [matricula, setMatricula] = useState("");
   const [senha, setSenha] = useState("");
-  const navigate = useNavigate(); // ← INSTANCIADO AQUI
+  const navigate = useNavigate(); 
 
   const handleLogin = (e) => {
     e.preventDefault();
 
-    // Simples validação para demonstrar
+    
     if (matricula && senha) {
-      // Redireciona para /perfil
+      
       navigate("/perfil");
     } else {
       alert("Por favor, preencha matrícula e senha.");

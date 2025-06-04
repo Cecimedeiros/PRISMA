@@ -1,4 +1,4 @@
-/* Chat da policial (padrão esquerda) */
+
 .chat-bubble {
   display: flex;
   align-items: flex-start;
@@ -79,7 +79,7 @@
   color: #153942;
 }
 
-/* Container */
+
 .chat-container {
   background-color: white;
   padding: 40px;

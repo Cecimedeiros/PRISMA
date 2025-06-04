@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom';
 import "./unidade.css";
 
 const Unidade = () => {
-  // Defina o hook useNavigate
   const navigate = useNavigate();
 
   return (

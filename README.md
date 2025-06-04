@@ -24,9 +24,8 @@ O sistema oferece diversas funcionalidades, incluindo:
 - Registro de Feedbacks sobre o sistema e acesso ao serviços policiais;
 
 ## Demonstração do projeto
-[📹 Clique e assista à demonstração do projeto no Google Drive](https://drive.google.com/file/d/14x26vmcRaU1XsxRZThTFJIgF097MaSKV/view?usp=drive_link)
 
-[📹 Assista à demonstração do projeto implementado em telas](https://drive.google.com/file/d/1RCQv69wypiphXGLzGkayqJ731WcN1REK/view?usp=sharing)
+[📹 Assista à demonstração do projeto implementado em telas](https://drive.google.com/file/d/1H4U-BU0Z2CQRijfvoXRQajXQVIFyJdf6/view?usp=drive_link)
 
 [👩‍💻 DEPLOY](https://prisma-vert.vercel.app/)
 

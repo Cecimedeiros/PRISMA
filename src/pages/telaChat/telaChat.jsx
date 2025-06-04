@@ -1,22 +1,40 @@
 import React from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import './telaChat.css';
-import  Footer  from "../../components/Footer/Footer.jsx";
-import  Header  from "../../components/Header/Header.jsx";
+import Footer from "../../components/Footer/Footer.jsx";
+import Header from "../../components/Header/Header.jsx";
 
 export default function TelaChat() {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+ 
+  const searchParams = new URLSearchParams(location.search);
+  const nextPage = searchParams.get('next');
+
+  const handleEntrar = () => {
+    if (nextPage) {
+      navigate(`/${nextPage}`);
+    } else {
+      navigate('/'); 
+    }
+  };
+
   return (
     <div className="chat-page">
-        <Header />
+      <Header />
       <div className="chat-container">
         <div className="chat-box">
           <div className="chat-header">
-            <img src="/assets/prisma.png" alt="Assistente Prisma" className="chat-avatar" />
+            <img src="../../assets/prima.png" alt="Assistente Prisma" className="chat-avatar" />
             <div className="chat-message">
               <p>
                 Olá! <span role="img" aria-label="estrela">✨</span> Sou a <strong>Prisma</strong>, sua assistente da Polícia Civil de Pernambuco.
                 Estou aqui para te ajudar de forma segura, rápida e discreta. Como posso te ajudar hoje?
               </p>
-              <button className="gov-button">Entrar com gov.br</button>
+              <button className="gov-button" onClick={handleEntrar}>
+                Entrar com gov.br
+              </button>
             </div>
           </div>
         </div>

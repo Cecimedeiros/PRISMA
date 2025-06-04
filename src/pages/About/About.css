@@ -1,0 +1,77 @@
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+body {
+  background-color: #f5f5f5; 
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.prisma-section {
+  padding: 24px;
+  max-width: 1024px;
+  margin: 20px auto;
+  color: #333;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  flex: 1;
+}
+
+.prisma-section h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.prisma-section h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.prisma-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.prisma-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+
+.prisma-section li {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .prisma-section {
+    padding: 16px;
+  }
+
+  .prisma-section h1 {
+    font-size: 24px;
+  }
+
+  .prisma-section h2 {
+    font-size: 20px;
+  }
+
+  .prisma-section p,
+  .prisma-section li {
+    font-size: 15px;
+  }
+}

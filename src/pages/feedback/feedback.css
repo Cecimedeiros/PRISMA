@@ -1,0 +1,95 @@
+.container-feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.card-feedback {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.mensagem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.mensagem img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.texto p {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.subtexto {
+  color: #666;
+  margin-top: 5px;
+}
+
+.estrelas {
+  margin: 10px 0;
+}
+
+.estrela {
+  font-size: 30px;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.estrela:hover,
+.estrela.ativa {
+  color: #ffc107;
+}
+
+.campo-enviar {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+
+.campo-enviar input {
+  border: none;
+  background: transparent;
+  flex: 1;
+  padding: 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+.campo-enviar button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.campo-enviar button {
+  
+  color: rgb(53, 47, 47); 
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.campo-enviar button:hover {
+  background-color: #8a8888; 
+}

@@ -1,0 +1,98 @@
+/* Chat da policial (padrão esquerda) */
+.chat-bubble {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.chat-message {
+  background-color: #f0f0f0;
+  padding: 12px 20px;
+  border-radius: 15px;
+  max-width: 500px;
+  font-size: 14px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.chat-response.user {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.user-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.chat-response.user .bubble-response {
+  background-color: #cbe4f9;
+  padding: 12px 20px;
+  border-radius: 15px;
+  max-width: 500px;
+  font-size: 14px;
+}
+
+/* Input */
+.chat-input-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.chat-input-area input {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.chat-input-area button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #153942;
+}
+
+/* Container */
+.chat-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 850px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+

@@ -1,0 +1,117 @@
+.container-confirmacao {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.card-confirmacao {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.mensagem-topo {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.mensagem-topo img {
+  width: 60px;
+  height: 60px;
+}
+
+.texto-confirmacao {
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  padding: 18px 22px;
+  color: #333;
+}
+
+.texto-confirmacao p {
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.sucesso {
+  color: #008000;
+  font-weight: bold;
+}
+
+.input-enviar {
+  display: flex;
+  align-items: center;
+  border: 2px solid #eee;
+  border-radius: 30px;
+  padding: 8px 16px;
+  background-color: white;
+}
+
+.input-enviar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.input-enviar button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  color: #565656;
+  transition: color 0.3s;
+}
+
+.input-enviar button:hover {
+  color: #585858;
+}
+
+@media (max-width: 768px) {
+  .card-confirmacao {
+    padding: 20px;
+  }
+
+  .mensagem-topo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .texto-confirmacao {
+    font-size: 14px;
+  }
+
+  .input-enviar input {
+    font-size: 14px;
+  }
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.btn-baixar {
+  background-color: rgb(185, 12, 12);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-baixar:hover {
+  background-color: darkred;
+}
